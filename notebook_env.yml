@@ -1,0 +1,14 @@
+name: notebook_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scanpy
+  - pip
+  - pip:
+     - pycirclize
